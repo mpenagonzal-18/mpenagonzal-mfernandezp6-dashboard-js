@@ -1,0 +1,187 @@
+/* ===== ESTILO GENERAL ===== */
+
+body {
+    background: #0b0f19;
+    color: #f8fafc;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== CONTENEDOR ===== */
+
+.container {
+    max-width: 1750px;
+    margin: auto;
+    padding: 30px;
+}
+
+/* ===== TÍTULOS ===== */
+
+h1 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 40px;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #cbd5e1;
+    font-weight: normal;
+    margin-top: 4px;
+}
+
+/* ===== SELECTOR ===== */
+
+.selector-graficos {
+    margin: 30px 0;
+    padding: 20px;
+    background: #111827;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.35);
+}
+
+.selector-graficos label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.selector-graficos select {
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 1px solid #374151;
+    background: #1f2937;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+}
+
+.selector-graficos select:focus {
+    border-color: #60a5fa;
+}
+
+/* ===== BLOQUES DE GRÁFICAS ===== */
+
+.grafica-bloque {
+    display: block;
+    background: #111827;
+    margin-bottom: 35px;
+    padding: 28px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.35);
+    transition: transform 0.2s ease;
+    overflow: hidden;
+}
+
+.grafica-bloque:hover {
+    transform: translateY(-3px);
+}
+
+/* ===== CONTENEDORES ===== */
+
+#g1,
+#g2,
+#svg1,
+#svg2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* ===== CANVAS ===== */
+
+canvas {
+    display: block;
+    background: #0f172a;
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: inset 0 0 20px rgba(255,255,255,0.03);
+    margin: 25px auto 10px auto;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+}
+
+#c1 {
+    width: min(100%, 1050px);
+}
+
+#c2 {
+    width: min(100%, 900px);
+}
+
+#cv1,
+#cv2 {
+    width: min(100%, 1000px);
+}
+
+/* ===== SVG ===== */
+
+svg {
+    display: block;
+    background: #0f172a;
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: inset 0 0 20px rgba(255,255,255,0.03);
+    margin: 25px auto 10px auto;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+}
+
+/* ===== TEXTOS SVG ===== */
+
+text,
+svg text {
+    fill: #ffffff !important;
+    font-size: 15px;
+}
+
+svg path,
+svg line {
+    stroke-opacity: 1;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 900px) {
+
+    .container {
+        padding: 18px;
+    }
+
+    .grafica-bloque {
+        padding: 18px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 0.95rem;
+    }
+
+    .selector-graficos {
+        padding: 16px;
+    }
+
+    .selector-graficos select {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

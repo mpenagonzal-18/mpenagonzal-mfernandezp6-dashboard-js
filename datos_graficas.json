@@ -1,0 +1,361 @@
+datos_graficas = {
+    "ClientesPorFidelidad": [
+        {
+            "Segmento": "Bronce",
+            "NumClientes": 812
+        },
+        {
+            "Segmento": "Plata",
+            "NumClientes": 545
+        },
+        {
+            "Segmento": "Oro",
+            "NumClientes": 308
+        },
+        {
+            "Segmento": "Platino",
+            "NumClientes": 144
+        }
+    ],
+
+    "GananciasTrimestrales": [
+        {
+            "TrimestrePedido": "Qtr1 2024",
+            "VentasTotales": 86012.66,
+            "CostesTotales": 56721.55,
+            "BeneficioTotal": 29291.11
+        },
+        {
+            "TrimestrePedido": "Qtr2 2024",
+            "VentasTotales": 97919.61,
+            "CostesTotales": 64284.46,
+            "BeneficioTotal": 33635.15
+        },
+        {
+            "TrimestrePedido": "Qtr3 2024",
+            "VentasTotales": 144506.19,
+            "CostesTotales": 94165.59,
+            "BeneficioTotal": 50340.6
+        },
+        {
+            "TrimestrePedido": "Qtr4 2024",
+            "VentasTotales": 233920.77,
+            "CostesTotales": 154171.66,
+            "BeneficioTotal": 79749.11
+        },
+        {
+            "TrimestrePedido": "Qtr1 2025",
+            "VentasTotales": 256602.7,
+            "CostesTotales": 166158.14,
+            "BeneficioTotal": 90444.56
+        },
+        {
+            "TrimestrePedido": "Qtr2 2025",
+            "VentasTotales": 267665.76,
+            "CostesTotales": 174538.57,
+            "BeneficioTotal": 93127.19
+        },
+        {
+            "TrimestrePedido": "Qtr3 2025",
+            "VentasTotales": 352396.36,
+            "CostesTotales": 232822.84,
+            "BeneficioTotal": 119573.52
+        },
+        {
+            "TrimestrePedido": "Qtr4 2025",
+            "VentasTotales": 491395.95,
+            "CostesTotales": 323125.0,
+            "BeneficioTotal": 168270.95
+        },
+        {
+            "TrimestrePedido": "Qtr1 2026",
+            "VentasTotales": 421758.72,
+            "CostesTotales": 278162.84,
+            "BeneficioTotal": 143595.88
+        }
+    ],
+
+    "NumPedidosCCAAs": [
+        {
+            "CCAAEntrega": "Andalucía",
+            "NumPedidos": 1199
+        },
+        {
+            "CCAAEntrega": "Galicia",
+            "NumPedidos": 324
+        },
+        {
+            "CCAAEntrega": "Región de Murcia",
+            "NumPedidos": 296
+        },
+        {
+            "CCAAEntrega": "Cataluña",
+            "NumPedidos": 1059
+        },
+        {
+            "CCAAEntrega": "Comunidad de Madrid",
+            "NumPedidos": 846
+        },
+        {
+            "CCAAEntrega": "Comunidad Valenciana",
+            "NumPedidos": 799
+        },
+        {
+            "CCAAEntrega": "Canarias",
+            "NumPedidos": 273
+        },
+        {
+            "CCAAEntrega": "Principado de Asturias",
+            "NumPedidos": 203
+        },
+        {
+            "CCAAEntrega": "Extremadura",
+            "NumPedidos": 95
+        },
+        {
+            "CCAAEntrega": "Castilla y León",
+            "NumPedidos": 291
+        },
+        {
+            "CCAAEntrega": "Aragón",
+            "NumPedidos": 193
+        },
+        {
+            "CCAAEntrega": "País Vasco",
+            "NumPedidos": 422
+        },
+        {
+            "CCAAEntrega": "Illes Balears",
+            "NumPedidos": 175
+        },
+        {
+            "CCAAEntrega": "Comunidad Foral de Navarra",
+            "NumPedidos": 66
+        },
+        {
+            "CCAAEntrega": "Castilla-La Mancha",
+            "NumPedidos": 122
+        },
+        {
+            "CCAAEntrega": "Cantabria",
+            "NumPedidos": 73
+        },
+        {
+            "CCAAEntrega": "La Rioja",
+            "NumPedidos": 64
+        }
+    ],
+
+    "BeneficiosCategoria": [
+        {
+            "Categoria": "Juguetes y juegos",
+            "Beneficios": 60634.1
+        },
+        {
+            "Categoria": "Electrónica",
+            "Beneficios": 453021.36
+        },
+        {
+            "Categoria": "Videojuegos",
+            "Beneficios": 101910.15
+        },
+        {
+            "Categoria": "Deportes",
+            "Beneficios": 33082.83
+        },
+        {
+            "Categoria": "Belleza",
+            "Beneficios": 42179.08
+        },
+        {
+            "Categoria": "Alimentación y bebidas",
+            "Beneficios": 12855.29
+        },
+        {
+            "Categoria": "Hogar y cocina",
+            "Beneficios": 111880.07
+        }
+    ],
+
+    "RatingMedioMensual": [
+        {
+            "MesReview": "enero 2024",
+            "RatingMedio": 4.4
+        },
+        {
+            "MesReview": "febrero 2024",
+            "RatingMedio": 3.833333
+        },
+        {
+            "MesReview": "marzo 2024",
+            "RatingMedio": 4.08
+        },
+        {
+            "MesReview": "abril 2024",
+            "RatingMedio": 4.1875
+        },
+        {
+            "MesReview": "mayo 2024",
+            "RatingMedio": 4.146341
+        },
+        {
+            "MesReview": "junio 2024",
+            "RatingMedio": 4.125
+        },
+        {
+            "MesReview": "julio 2024",
+            "RatingMedio": 3.916667
+        },
+        {
+            "MesReview": "agosto 2024",
+            "RatingMedio": 4.163636
+        },
+        {
+            "MesReview": "septiembre 2024",
+            "RatingMedio": 4.277778
+        },
+        {
+            "MesReview": "octubre 2024",
+            "RatingMedio": 4.176471
+        },
+        {
+            "MesReview": "noviembre 2024",
+            "RatingMedio": 4.315068
+        },
+        {
+            "MesReview": "diciembre 2024",
+            "RatingMedio": 4.138298
+        },
+        {
+            "MesReview": "enero 2025",
+            "RatingMedio": 4.176
+        },
+        {
+            "MesReview": "febrero 2025",
+            "RatingMedio": 4.115044
+        },
+        {
+            "MesReview": "marzo 2025",
+            "RatingMedio": 4.348837
+        },
+        {
+            "MesReview": "abril 2025",
+            "RatingMedio": 4.189474
+        },
+        {
+            "MesReview": "mayo 2025",
+            "RatingMedio": 4.141414
+        },
+        {
+            "MesReview": "junio 2025",
+            "RatingMedio": 4.158333
+        },
+        {
+            "MesReview": "julio 2025",
+            "RatingMedio": 4.229008
+        },
+        {
+            "MesReview": "agosto 2025",
+            "RatingMedio": 4.146497
+        },
+        {
+            "MesReview": "septiembre 2025",
+            "RatingMedio": 4.21831
+        },
+        {
+            "MesReview": "octubre 2025",
+            "RatingMedio": 4.029197
+        },
+        {
+            "MesReview": "noviembre 2025",
+            "RatingMedio": 4.318182
+        },
+        {
+            "MesReview": "diciembre 2025",
+            "RatingMedio": 4.138756
+        },
+        {
+            "MesReview": "enero 2026",
+            "RatingMedio": 4.199153
+        },
+        {
+            "MesReview": "febrero 2026",
+            "RatingMedio": 4.237113
+        },
+        {
+            "MesReview": "marzo 2026",
+            "RatingMedio": 4.287805
+        }
+    ],
+	"AltasPorSuscripcion": [
+        {
+            "TipoSuscripcion": "Estándar",
+            "NumAltas": 1016
+        },
+        {
+            "TipoSuscripcion": "Prime",
+            "NumAltas": 793
+        }
+    ],
+    "BeneficiosSegmento": [
+        {
+            "Segmento": "Bronce",
+            "Beneficio": 112430.09
+        },
+        {
+            "Segmento": "Otros",
+            "Beneficio": 341.63
+        },
+        {
+            "Segmento": "Oro",
+            "Beneficio": 243110.33
+        },
+        {
+            "Segmento": "Plata",
+            "Beneficio": 270433.42
+        },
+        {
+            "Segmento": "Platino",
+            "Beneficio": 186141.96
+        }
+    ],
+    "ClientesProvincias": [
+        { "Provincia": "Badajoz", "NumClientes": 12 },
+        { "Provincia": "Toledo", "NumClientes": 12 },
+        { "Provincia": "Cáceres", "NumClientes": 17 },
+        { "Provincia": "Jaén", "NumClientes": 18 },
+        { "Provincia": "Almería", "NumClientes": 18 },
+        { "Provincia": "Huelva", "NumClientes": 18 },
+        { "Provincia": "La Rioja", "NumClientes": 19 },
+        { "Provincia": "Albacete", "NumClientes": 20 },
+        { "Provincia": "Girona", "NumClientes": 22 },
+        { "Provincia": "León", "NumClientes": 22 },
+        { "Provincia": "Navarra", "NumClientes": 22 },
+        { "Provincia": "Lleida", "NumClientes": 22 },
+        { "Provincia": "Castellón", "NumClientes": 23 },
+        { "Provincia": "Cantabria", "NumClientes": 23 },
+        { "Provincia": "Córdoba", "NumClientes": 25 },
+        { "Provincia": "Cádiz", "NumClientes": 25 },
+        { "Provincia": "Tarragona", "NumClientes": 25 },
+        { "Provincia": "Salamanca", "NumClientes": 28 },
+        { "Provincia": "Granada", "NumClientes": 30 },
+        { "Provincia": "Valladolid", "NumClientes": 33 },
+        { "Provincia": "Álava", "NumClientes": 34 },
+        { "Provincia": "Gipuzkoa", "NumClientes": 37 },
+        { "Provincia": "Las Palmas", "NumClientes": 37 },
+        { "Provincia": "Santa Cruz de Tenerife", "NumClientes": 40 },
+        { "Provincia": "A Coruña", "NumClientes": 42 },
+        { "Provincia": "Illes Balears", "NumClientes": 48 },
+        { "Provincia": "Bizkaia", "NumClientes": 53 },
+        { "Provincia": "Pontevedra", "NumClientes": 54 },
+        { "Provincia": "Zaragoza", "NumClientes": 58 },
+        { "Provincia": "Alicante", "NumClientes": 58 },
+        { "Provincia": "Asturias", "NumClientes": 60 },
+        { "Provincia": "Murcia", "NumClientes": 81 },
+        { "Provincia": "Málaga", "NumClientes": 88 },
+        { "Provincia": "Sevilla", "NumClientes": 96 },
+        { "Provincia": "Valencia", "NumClientes": 122 },
+        { "Provincia": "Barcelona", "NumClientes": 213 },
+        { "Provincia": "Madrid", "NumClientes": 254 }
+    ]
+}
