@@ -16,7 +16,6 @@
 					<option value="d3">D3.js</option>
 					<option value="svg">SVG</option>
 					<option value="canvas">Canvas</option>
-					<option value="svg_canvas">SVG y Canvas</option>
 				</select>
 			</div>
 			<div class="grafica-bloque" data-tipo="d3">
@@ -728,10 +727,7 @@
 					if (tipoSeleccionado === 'todos' || bloque.dataset.tipo === tipoSeleccionado) { // ¿El tipo seleccionado es 'todos'? / Si no, ¿el tipo coincide con la selección?
 						// si alguna se cumple, hacemos que el bloque sea visible
 						bloque.style.display = 'block'; // Enseña la gráfica si coincide
-					} 
-					else if (tipoSeleccionado === 'svg_canvas' && (bloque.dataset.tipo === 'svg' || bloque.dataset.tipo === 'canvas')) { 
-						bloque.style.display = 'block';
-					}else {
+					} else {
 						// si no coincide, lo ocultamos completamente de la pantalla
 						bloque.style.display = 'none'; // La oculta si no coincide
 					}
